@@ -1,0 +1,5 @@
+without_mask 0.8412 322.0 173.0 344.0 217.0
+mask_weared_incorrect 0.6076 90.0 159.0 117.0 213.0
+mask_weared_incorrect 0.4054 188.0 181.0 211.0 223.0
+without_mask 0.3497 189.0 183.0 209.0 222.0
+with_mask 0.3169 90.0 159.0 117.0 213.0
