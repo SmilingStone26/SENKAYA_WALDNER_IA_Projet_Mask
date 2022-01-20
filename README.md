@@ -11,9 +11,11 @@ La version de Cuda utilisé lors des test est la 11.4
 
 ## Comment commencer?
 
-Avant de commencer quoique ce soit il faut d'abord cloner ce repository. Après cela il faut télécharger le fichier suivant qui contient les poids de nos entraînements : 
+Avant de commencer quoique ce soit il faut d'abord cloner ce repository. Après cela il faut télécharger le fichier custom.weights qui contient les poids de nos entraînements : 
 
 Ensuite il faut place ce dossier data. 
+
+Il faut également télécharger le fichier ZIP custom-416.zip et placer le dossier checkpoints à la racine du projet : 
 
 Il faut ensuite créer un environnement Python virtual via la commande suivante dans un Invite de commande : 
 ```
@@ -23,6 +25,11 @@ Il faut ensuite créer un environnement Python virtual via la commande suivante 
 Ensuite il faut activer votre environnement virtuel en executant la commande suivante : 
 ```
     MyVenv\Scripts\activate
+```
+
+Il faut ensuite installer les packages nécessaire via la commande :
+```
+    pip install -r requirements-gpu.txt
 ```
 
 Après avoir activer votre environnement virtuel il faut vous rendre dans le dossier contenant tout nos programme puis éxecuter la commande suivante :
