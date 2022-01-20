@@ -11,11 +11,11 @@ La version de Cuda utilisé lors des test est la 11.4
 
 ## Comment commencer?
 
-Avant de commencer quoique ce soit il faut d'abord cloner ce repository. Après cela il faut télécharger le fichier custom.weights qui contient les poids de nos entraînements : 
+Avant de commencer quoique ce soit il faut d'abord cloner ce repository. Après cela il faut télécharger le fichier custom.weights qui contient les poids de nos entraînements : https://drive.google.com/file/d/1Q4LvHFfFfVvh48IGeyrE168_F6Dtm-j4/view?usp=sharing
 
 Ensuite il faut place ce dossier data. 
 
-Il faut également télécharger le fichier ZIP custom-416.zip et placer le dossier checkpoints à la racine du projet : 
+Il faut également télécharger le fichier ZIP custom-416.zip et placer le dossier checkpoints à la racine du projet : https://drive.google.com/file/d/1SWuCTGwnUf2h_vQc_oL7_z0qmLRonSVR/view?usp=sharing
 
 Il faut ensuite créer un environnement Python virtual via la commande suivante dans un Invite de commande : 
 ```
