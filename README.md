@@ -40,7 +40,9 @@ Après avoir activer votre environnement virtuel il faut vous rendre dans le dos
 Si vous voulez lancer le test mAP il faut effectuer les commandes suivantes : 
 ```
     python evaluate.py
-    python mAP\extra\remove_space.py
+    cd mAP\extra
+    python remove_space.py
+    cd ..
     python mAP\main.py --output results_yolov4_tf
 ```
 
