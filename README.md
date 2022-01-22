@@ -27,12 +27,18 @@ Ensuite il faut activer votre environnement virtuel en executant la commande sui
     MyVenv\Scripts\activate
 ```
 
-Il faut ensuite installer les packages nécessaire via la commande :
+Après avoir activer votre environnement virtuel il faut vous rendre dans le dossier contenant tout nos programme.
+
+Il faut ensuite installer les packages nécessaire via la commande (si utilisation de cuda):
 ```
     pip install -r requirements-gpu.txt
 ```
 
-Après avoir activer votre environnement virtuel il faut vous rendre dans le dossier contenant tout nos programme puis éxecuter la commande suivante :
+OU il faut installer la commande (si non utilisation de cuda):
+```
+    pip install -r requirements.txt
+```
+Puis éxecuter la commande suivante :
 ```
     python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
 ```
