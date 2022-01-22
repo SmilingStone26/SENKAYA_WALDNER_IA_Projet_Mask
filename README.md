@@ -43,12 +43,12 @@ Puis éxecuter la commande suivante :
     python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
 ```
 
-Si vous voulez lancer le test mAP il faut effectuer les commandes suivantes : 
+Si vous voulez lancer le test mAP il faut effectuer les commandes suivantes à la racine du projet : 
 ```
     python evaluate.py
     cd mAP\extra
     python remove_space.py
     cd ..
-    python mAP\main.py --output results_yolov4_tf
+    python main.py --output results_yolov4_tf
 ```
 
